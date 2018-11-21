@@ -235,10 +235,113 @@ textarea {
 }
 
 
+@media screen and (max-width: 980px) {
+    .box-set {
+        width:100%;
+    }
+    .content {
+        width:100%;
+    }
+    form {
+        width:100%;
+    }
+    .header {
+        background-color: #4aaaa5;
+        width:100%;
+   } 
+   .header-nav {
+    width:100%;
+    margin-left:0px;
+
+}
+   .header-title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: flex;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 60px;
+    justify-content: flex-start;
+    line-height:2px;
+    overflow: hidden;
+    padding: 1em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+}
+
 @media screen and (max-width: 768px) {
+    .box-set {
+        width:100%;
+        margin-left:0px;
 
-}
+    }
+    .content {
+        width:100%;
+    }
+    form {
+        width:100%;
+    }
+    .header {
+        background-color: #4aaaa5;
 
-@media screen and (max-width: 320px) {
-    
-}
+        width:100%;
+        margin-left:0px;
+    } 
+    .header-nav {
+        width:100%;
+        margin-left:0px;
+
+    }
+    .header-title {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        display: flex;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        height: 60px;
+        justify-content: flex-start;
+        line-height:2px;
+        overflow: hidden;
+        padding: 1em;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+    }
+
+ }
+
+@media screen and (max-width: 640px) {
+    .box-set {
+        width:100%;
+    }
+    .content {
+        width:100%;
+    }
+    form {
+        width:100%;
+    }
+    .header {
+        background-color: #4aaaa5;
+        width:100%;
+    } 
+    .header-nav {
+        width:100%;
+        margin-left:0px;
+
+    }
+    .header-title {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        display: flex;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        justify-content:flex-start;
+        height: 60px;
+        line-height:2px;
+        overflow: hidden;
+        padding: 1em;
+        position: relative;
+        text-align: center;
+    }
+
+ }
