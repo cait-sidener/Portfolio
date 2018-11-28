@@ -152,7 +152,7 @@ form div + div {
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 60px;
     line-height:2px;
-    margin-left:auto;
+    margin-left:18%;
     overflow: hidden;
     padding: 1em;
     position: relative;
@@ -256,6 +256,7 @@ textarea {
    .header-title {
     float:left;
     width: 100%;
+    margin-left: auto;
     }
 
 }
@@ -286,6 +287,8 @@ textarea {
     .header-title {
         float:left;
         width: 100%;
+        margin-left: auto;
+
     }
 }
 
@@ -310,5 +313,7 @@ textarea {
     }
     .header-title {
         float:left;
+        margin-left: auto;
+
     }
 }
