@@ -152,7 +152,7 @@ form div + div {
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 60px;
     line-height:2px;
-    margin-left:238px;
+    margin-left:auto;
     overflow: hidden;
     padding: 1em;
     position: relative;
@@ -200,7 +200,6 @@ p {
     line-height: 200%;
     margin-left: 40px;
     margin-bottom:15px;
-    width:900px;
 }
 
 /* portfolio word boxes */
@@ -253,21 +252,11 @@ textarea {
     width:100%;
     margin-left:0px;
 
-}
+    }
    .header-title {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    display: flex;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    height: 60px;
-    justify-content: flex-start;
-    line-height:2px;
-    overflow: hidden;
-    padding: 1em;
-    position: fixed;
-    text-align: center;
+    float:left;
     width: 100%;
-}
+    }
 
 }
 
@@ -295,21 +284,10 @@ textarea {
 
     }
     .header-title {
-        background-color: #4aaaa5;
-        color: #ffffff;
-        display: flex;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        height: 60px;
-        justify-content: flex-start;
-        line-height:2px;
-        overflow: hidden;
-        padding: 1em;
-        position: fixed;
-        text-align: center;
+        float:left;
         width: 100%;
     }
-
- }
+}
 
 @media screen and (max-width: 640px) {
     .box-set {
@@ -331,17 +309,6 @@ textarea {
 
     }
     .header-title {
-        background-color: #4aaaa5;
-        color: #ffffff;
-        display: flex;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        justify-content:flex-start;
-        height: 60px;
-        line-height:2px;
-        overflow: hidden;
-        padding: 1em;
-        position: relative;
-        text-align: center;
+        float:left;
     }
-
- }
+}
