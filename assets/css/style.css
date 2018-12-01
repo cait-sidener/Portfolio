@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
 /*keeping links the same color, even when clicked on for nav bar*/
 a {
     color: #8a8a8a;
@@ -14,9 +18,11 @@ body {
 
 /* relative positioning in portfolio */
 .box {
+    background-repeat: no-repeat;
     position: relative;
+    display: inline-block;
+    width: 250px;
     height: 200px;
-    width:225px;
 }
 
 /* relative positioning in portfolio */
@@ -27,28 +33,22 @@ body {
 /* relative positioning in portfolio */
 .box-2 {
     background-image: url("../images/placeimg_640_480_animals (1).jpg");
-    left:275px;
-    top:-216px;
 }
 
 /* relative positioning in portfolio */
 .box-3 {
     background-image: url("../images/placeimg_640_480_animals (3).jpg");
-    top:-185px;
 }
 
 /* relative positioning in portfolio */
 .box-4 {
     background-image: url("../images/placeimg_640_480_animals.jpg");
-    left:275px;
-    top:-400px;
 }
 
 /* relative positioning in portfolio */
 
 .box-5 {
     background-image: url("../images/placeimg_640_480_nature.jpg");
-    top:-375px;
 }
 
 /*the white box around content for all pages*/
@@ -89,12 +89,12 @@ button:hover {
     border-spacing:15px 50px;
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin:1em;
+    margin:1em 5%;
     margin-top: 30px;
     padding:5px;
     padding-left:18px;
     padding-bottom: 20px;
-    width: 870px;
+    width: 90%;
 }
 
 .footer,
@@ -121,7 +121,6 @@ form div + div {
 .header {
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    background-color: white;
     height:93px;
     position:relative;
     width:100%;
@@ -132,7 +131,7 @@ form div + div {
     display: flex;
     justify-content:flex-end;
     list-style-type: none;
-    margin-right:235px;
+    margin-right:17%;
     padding: 0;
 }
 
@@ -157,7 +156,7 @@ form div + div {
     padding: 1em;
     position: relative;
     text-align: center;
-    width: 270px;
+    /* width: 270px; */
 }
 
 /* formatting for footer */
@@ -214,7 +213,7 @@ p {
     position:absolute;
     text-align: center;
     top:155px;
-    width:225px;
+    width:250px;
 }
 
  /* the message box in contact page */
@@ -238,9 +237,6 @@ textarea {
     .box-set {
         width:100%;
     }
-    .content {
-        width:100%;
-    }
     form {
         width:100%;
     }
@@ -249,7 +245,7 @@ textarea {
         width:100%;
    } 
    .header-nav {
-    width:100%;
+    width:max-content;
     margin-left:0px;
 
     }
@@ -258,7 +254,12 @@ textarea {
     width: 100%;
     margin-left: auto;
     }
-
+    #name {
+        width: 60%;
+    }
+    textarea{
+        width:60%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -267,9 +268,7 @@ textarea {
         margin-left:0px;
 
     }
-    .content {
-        width:100%;
-    }
+
     form {
         width:100%;
     }
@@ -280,7 +279,7 @@ textarea {
         margin-left:0px;
     } 
     .header-nav {
-        width:100%;
+        width:max-content;
         margin-left:0px;
 
     }
@@ -290,14 +289,25 @@ textarea {
         margin-left: auto;
 
     }
+
+    #name {
+        width: 60%;
+    }
+
+    textarea{
+        width:60%;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .box-set {
         width:100%;
     }
-    .content {
-        width:100%;
+    .box {
+        margin: 1em 10%;
+        width: 80%;
+        background-size: cover;
+
     }
     form {
         width:100%;
@@ -307,13 +317,21 @@ textarea {
         width:100%;
     } 
     .header-nav {
-        width:100%;
+        width:max-content;
         margin-left:0px;
 
     }
     .header-title {
         float:left;
         margin-left: auto;
-
+    }
+    #name {
+        width: 60%;
+    }
+    .projects {
+        width: 100%;
+    }
+    textarea{
+        width:60%;
     }
 }
