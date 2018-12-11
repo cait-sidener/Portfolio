@@ -62,7 +62,7 @@ body {
 
 /* contact page submit button */
 .button {
-    background-color: #4aaaa5;
+    background-color: #FDB096;
     border:none;
     color:white;
     cursor: pointer;
@@ -144,7 +144,7 @@ form div + div {
 
 /*my name on each page*/
 .header-title {
-    background-color: #4aaaa5;
+    background-color: #FDB096;
     color: #ffffff;
     display: block;
     float: left;
@@ -203,7 +203,7 @@ p {
 
 /* portfolio word boxes */
 .projects {
-    background-color:#4aaaa5;
+    background-color:#FDB096;
     background-position: center;
     color: #ffffff;
     font-size:17px;
